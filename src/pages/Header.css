@@ -1,0 +1,51 @@
+.header {
+  background: #FFF;
+  border-bottom: 1px solid #DCDEE3;
+  height: 62px;
+  min-width: 1040px;
+  position: relative;
+  z-index: 10;
+}
+
+.logo {
+  float: left;
+  height: 32px;
+  padding: 15px;
+  border-right: 1px solid #DCDEE3;
+}
+
+.img {
+  border: 0;
+  height: 32px;
+}
+
+.h1 {
+  float: left;
+  margin: 0;
+  padding: 20px;
+  font-size: 16px;
+  color: #000;
+  text-transform: capitalize;
+  height: 32px;
+  line-height: 22px;
+}
+
+.nav {
+  float: right;
+}
+
+.menuItem {
+  display: inline-block;
+  box-sizing: border-box;
+  height: 62px;
+  line-height: 22px;
+  padding: 20px 15px;
+  border-left: 1px solid #DCDEE3;
+
+  color: rgb(93, 96, 96);
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  background: #f9fafb;
+}

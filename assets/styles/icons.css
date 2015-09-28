@@ -1,0 +1,35 @@
+.before {
+  /* */
+}
+
+.before::before {
+  position: absolute;
+  top: 50%;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  margin-top: -10px;
+  font-size: 14px;
+  color: #fff;
+  background: #AB83A8;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.after {
+  /* */
+}
+
+.after::after {
+  position: absolute;
+  top: -1px;
+  transform: rotate(-45deg);
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  content: 'p';
+  font-size: 16px;
+  font-family: 'icons';
+  font-variant: normal;
+  font-weight: normal;
+  color: #DCDEE3;
+}

@@ -1,0 +1,150 @@
+.main {
+  padding: 20px 0;
+  text-align: center;
+  width: 100%;
+  background: #585972;
+}
+
+.viewer {
+  position: relative;
+  box-sizing: border-box;
+  width: 1100px;
+  height: 835px;
+  margin: 0 auto;
+}
+
+.middle {
+  height: 785px;
+}
+
+.noImg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -139px;
+  margin-top: -10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.bottom {
+  height: 50px;
+  text-align: left;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.number {
+  margin-right: 20px;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.refresh {
+  margin-right: 20px;
+  padding: 7px 20px;
+  cursor: pointer;
+  background: #0D6FD5;
+  border-right: 2px;
+  text-transform: none;
+}
+
+.img {
+  width: 1100px;
+  height: 785px;
+}
+
+.form {
+  position: relative;
+  box-sizing: border-box;
+  width: 1100px;
+  margin: 5px auto;
+  padding: 10px;
+  background: #fff;
+}
+
+.item {
+  position: relative;
+  display: inline-block;
+}
+
+.meyo {
+  composes: item;
+  width: 100%;
+  text-align: left;
+  margin: 20px 0;
+}
+
+.label {
+  display: block;
+  position: relative;
+  width: 160px;
+  margin: 10px 25px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: left;
+}
+
+.meyoLable {
+  composes: label;
+  display: inline;
+  margin-left: 40px;
+}
+
+.input {
+  border-radius: 0px;
+  height: 40px;
+  box-sizing: border-box;
+  width: 300px;
+  margin: 10px 25px;
+  background: #fff;
+  padding: 4px 10px;
+  border: 1px solid #DCDEE3;
+}
+
+.input[disabled] {
+  background: #ccc;
+}
+
+.action {
+  padding-top: 0;
+  box-sizing: border-box;
+  margin: 10px 0;
+  position: relative;
+  text-align: right;
+  width: 100%;
+}
+
+.preview {
+  position: absolute;
+  right: 250px;
+  top: 10px;
+  font-style: italic;
+}
+
+.submit {
+  height: 40px;
+  line-height: 26px;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  padding: 7px 40px;
+  position: relative;
+  z-index: 1;
+
+  border: 0px;
+  background: #0D6FD5;
+  border-radius: 2px;
+  color: #fff;
+  display: inline-block;
+  outline: none;
+  text-align: center;
+  text-transform: uppercase;
+  right: 40px;
+}
+
+.submit[disabled] {
+  background: #ccc;
+}
